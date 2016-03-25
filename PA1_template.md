@@ -59,6 +59,9 @@ abline(v = median(daily$total.steps), col = "blue", lwd = 5)
 
 ![](PA1_template_files/figure-html/q1-1.png)
 
+- **Mean is 9354.23**
+- **Median is 10395**
+
 ## What is the average daily activity pattern?
 A time series plot of daily number of steps is shown below:
 
@@ -81,7 +84,7 @@ abline(v = time.series$interval[which.max(time.series$avg.steps)], col = "red", 
 
 ![](PA1_template_files/figure-html/q2-1.png)
 
-As we can see, the activity peeks during the 835 interval (around 2pm!).
+- As we can see, the activity peeks during the **835** interval (around 2pm!).
 
 ## Imputing missing values
 So far, we have been removing the missing values from the analysis. In total, there are 2304 rows with missing values in the data set:
